@@ -6,7 +6,7 @@
   "direccion": "Calle Cypress 123",
   "telefono": "12345",
   "email": "usuari@gmail.com",
-  "cofirmarEmail":"usuari@gmail.com",
+  "confirmarEmail":"usuari@gmail.com",
   "password": "Password123",
   "repetirPassword": "Password123"
 

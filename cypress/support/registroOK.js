@@ -1,8 +1,7 @@
-Cypress.Commands.add("registroBad", (emailRandom, cuitRandom, telefonoRandom) => {
+Cypress.Commands.add("registroOk", (emailRandom, cuitRandom, telefonoRandom) => {
     cy.fixture("register.bad").then((user) => {
     
-      cy.get('[data-cy="input-razon-social"]').type(user.razonSocial) 
-      //input-razon-social esta igual si lo comento, el erro pasa a la siguiente linea
+      cy.get('[data-cy="input-razon-social"]').type(user.razonSocial) //input-razon-social
 
       cy.get('[data-cy="input-cuit"]').type(cuitRandom)
 
