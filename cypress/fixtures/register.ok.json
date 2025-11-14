@@ -1,0 +1,13 @@
+{
+  "razonSocial": "Empresa Test SRL",
+  "cuit": "1234567",             
+  "provincia": "Córdoba",
+  "localidad": "Santa Rosa de Calamuchita",
+  "direccion": "Calle Cypress 123",
+  "telefono": "12345",
+  "email": "usuario@gmail.com",
+  "password": "Password123",
+  "cofirmarEmail":"",
+  "repetirPassword": "Password123"
+
+}
